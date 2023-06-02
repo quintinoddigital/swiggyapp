@@ -1,0 +1,54 @@
+ion-header {
+    ion-toolbar {
+        ion-title {
+            ion-icon {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+ion-content {
+
+    swiper-container {
+        swiper-slide {
+            img {
+                height: 34vh;
+                width: 94%;
+                margin: auto;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 14px;
+                // transform: translateY(10%);
+            }
+        }
+    }
+
+}
+
+.lista-restaurantes {
+    margin-top: 20px;
+    ion-thumbnail {
+        height: 12vh;
+        width: 25vw;
+        img {
+            border-radius: 10px;
+        }
+    }
+    ion-label {
+        h2 {
+            font-weight: bold;
+        }
+    }
+    .distance {
+        font-weight: bold;
+        padding-top: 0.2vh;
+        font-size: 14px;
+    }
+    .pStyle {
+        padding-bottom: 0.5vh;
+        font-size: .90rem !important;
+    }
+}
+
